@@ -1,0 +1,3 @@
+## this is just in case we haev dependencies that get installed
+node_modules/
+.DS_Store
