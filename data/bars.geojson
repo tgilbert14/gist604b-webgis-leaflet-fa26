@@ -1,0 +1,544 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-22T22:44:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/371425280",
+      "properties": {
+        "@id": "node/371425280",
+        "amenity": "pub",
+        "live_music": "yes",
+        "name": "The Hut",
+        "theme": "tiki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9660474,
+          32.2254878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/398306758",
+      "properties": {
+        "@id": "node/398306758",
+        "air_conditioning": "yes",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-12-18",
+        "indoor_seating": "yes",
+        "name": "Surly Wench",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9654651,
+          32.2271244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/398309873",
+      "properties": {
+        "@id": "node/398309873",
+        "amenity": "pub",
+        "check_date:opening_hours": "2024-01-17",
+        "indoor_seating": "yes",
+        "name": "Che's Lounge",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9653879,
+          32.2262831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/398320179",
+      "properties": {
+        "@id": "node/398320179",
+        "amenity": "pub",
+        "food": "yes",
+        "name": "Bison Witches"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9653782,
+          32.2259202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/398325161",
+      "properties": {
+        "@id": "node/398325161",
+        "amenity": "pub",
+        "food": "yes",
+        "name": "O'Malley's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9656711,
+          32.2249036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1226085885",
+      "properties": {
+        "@id": "node/1226085885",
+        "amenity": "bar",
+        "name": "Level Bar & Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9430154,
+          32.2854912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2529520752",
+      "properties": {
+        "@id": "node/2529520752",
+        "addr:city": "Tucson",
+        "addr:housenumber": "403",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North 6th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date:opening_hours": "2023-11-21",
+        "indoor_seating": "yes",
+        "name": "Tap & Bottle",
+        "opening_hours": "Su,Mo 12:00-21:00; Tu,We 12:00-22:00; Th-Sa 12:00-23:00",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "website": "https://www.thetapandbottle.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.968795,
+          32.2266589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3150346718",
+      "properties": {
+        "@id": "node/3150346718",
+        "addr:city": "Tucson",
+        "addr:state": "AZ",
+        "amenity": "bar",
+        "name": "Hi-Fi",
+        "smoking": "outside",
+        "website": "https://hifibars.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9657319,
+          32.2219939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3150346719",
+      "properties": {
+        "@id": "node/3150346719",
+        "addr:city": "Tucson",
+        "addr:state": "AZ",
+        "amenity": "bar",
+        "disused": "yes",
+        "name": "The Funky Monk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9661772,
+          32.2219871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4431515375",
+      "properties": {
+        "@id": "node/4431515375",
+        "addr:city": "Tucson",
+        "addr:country": "US",
+        "addr:housenumber": "278",
+        "addr:state": "AZ",
+        "addr:street": "East Congress Street",
+        "amenity": "bar",
+        "name": "Playground Bar and Lounge",
+        "opening_hours": "Th-Fr 16:00-23:00; Sa 12:00-23:00; Su 12:00-18:00",
+        "phone": "+1-520-396-3691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9672343,
+          32.2219819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4470467294",
+      "properties": {
+        "@id": "node/4470467294",
+        "addr:city": "Tucson",
+        "addr:housenumber": "943",
+        "addr:postcode": "85719",
+        "addr:state": "AZ",
+        "addr:street": "East University Boulevard",
+        "amenity": "pub",
+        "name": "Red's Smokehouse and Tap Room",
+        "opening_hours": "Su-Th 11:00-00:00, Fr-Sa 11:00-02:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9573208,
+          32.2318678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4489516410",
+      "properties": {
+        "@id": "node/4489516410",
+        "addr:city": "Tucson",
+        "addr:country": "US",
+        "addr:housenumber": "201",
+        "addr:postcode": "85701",
+        "addr:state": "AZ",
+        "addr:street": "North Court Avenue",
+        "amenity": "bar",
+        "name": "Monsoon Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9740759,
+          32.2242067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5411218824",
+      "properties": {
+        "@id": "node/5411218824",
+        "amenity": "bar",
+        "name": "Arizona Wine Collective"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9432948,
+          32.285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5629747533",
+      "properties": {
+        "@id": "node/5629747533",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "The Royal Room",
+        "opening_hours": "Mo-Su 16:00-01:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9685178,
+          32.2275723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6113951285",
+      "properties": {
+        "@id": "node/6113951285",
+        "addr:city": "Tucson",
+        "addr:housenumber": "1802",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North Stone Avenue",
+        "amenity": "pub",
+        "name": "Brother John’s Beer, Bourbon, and BBQ",
+        "opening_hours": "Su 11:00-21:00; Mo-Th 11:00-22:00; Fr-Sa 11:00-00:00",
+        "phone": "+1-520-867-6787",
+        "website": "https://www.brotherjohnsbbq.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9721782,
+          32.2439763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6226292128",
+      "properties": {
+        "@id": "node/6226292128",
+        "addr:city": "Tucson",
+        "addr:housenumber": "236",
+        "addr:postcode": "85701",
+        "addr:state": "AZ",
+        "addr:street": "South Scott Avenue",
+        "amenity": "bar",
+        "name": "Owl's Club",
+        "opening_hours": "Tu-Th 17:00-24:00; Fr-Sa 17:00-01:00; Su 19:00-24:00",
+        "phone": "+1 520-207-5678",
+        "website": "https://www.owlsclubwest.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9699702,
+          32.2187067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6262939128",
+      "properties": {
+        "@id": "node/6262939128",
+        "addr:city": "Tucson",
+        "addr:housenumber": "536",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North 4th Avenue",
+        "amenity": "bar",
+        "contact:phone": "+1-520-622-4300",
+        "contact:website": "www.skybartucson.com",
+        "indoor_seating": "yes",
+        "name": "Sky Bar",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9654497,
+          32.2287066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8162717042",
+      "properties": {
+        "@id": "node/8162717042",
+        "addr:city": "Tucson",
+        "addr:housenumber": "616",
+        "addr:postcode": "85705",
+        "addr:state": "AZ",
+        "addr:street": "North 4th Avenue",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "cuisine": "burger",
+        "indoor_seating": "yes",
+        "name": "IBT'S",
+        "opening_hours": "Mo-Su 12:00-02:00",
+        "outdoor_seating": "no",
+        "phone": "+1-520-882-3053",
+        "smoking": "no",
+        "website": "https://www.ibtstucson.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9654381,
+          32.2292862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9644491687",
+      "properties": {
+        "@id": "node/9644491687",
+        "amenity": "bar",
+        "name": "Westbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.984594,
+          32.217997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9645044183",
+      "properties": {
+        "@id": "node/9645044183",
+        "amenity": "bar",
+        "check_date": "2026-11-06",
+        "level": "0",
+        "name": "WXYZ Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9433813,
+          32.2357152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11900084669",
+      "properties": {
+        "@id": "node/11900084669",
+        "addr:postcode": "85701",
+        "amenity": "bar",
+        "contact:facebook": "cobraarcade",
+        "contact:instagram": "cobraarcadebar",
+        "email": "tuscon@cobraarcadebar.com",
+        "name": "Cobra Arcade Bar",
+        "opening_hours": "Tu-Su 16:00-02:00",
+        "phone": "+1 520 499 3999",
+        "website": "https://cobraarcadebar.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9699709,
+          32.2221423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12439649963",
+      "properties": {
+        "@id": "node/12439649963",
+        "amenity": "bar",
+        "name": "Bazil's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8907681,
+          32.3089688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13282413801",
+      "properties": {
+        "@id": "node/13282413801",
+        "addr:housenumber": "2559",
+        "addr:postcode": "85716",
+        "addr:street": "East Broadway Boulevard",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "The Broadway",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+1 520-844-0815",
+        "website": "https://www.thebroadwayaz.com/gallery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9337234,
+          32.2218828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13300715501",
+      "properties": {
+        "@id": "node/13300715501",
+        "addr:housenumber": "3230",
+        "addr:postcode": "85716",
+        "addr:street": "North Dodge Boulevard",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Tucson Hop Shop",
+        "opening_hours": "Mo-Th 14:00-21:00; Fr-Sa 12:00-23:00; Su 12:00-21:00",
+        "website": "https://tucsonhopshop.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9135474,
+          32.2658946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13612566596",
+      "properties": {
+        "@id": "node/13612566596",
+        "amenity": "bar",
+        "name": "The Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9665737,
+          32.2223815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13612566597",
+      "properties": {
+        "@id": "node/13612566597",
+        "amenity": "bar",
+        "name": "Tiger's Tap Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9665108,
+          32.2223115
+        ]
+      }
+    }
+  ]
+}
