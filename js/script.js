@@ -44,10 +44,15 @@ fetch("data/parks.geojson")
         fillColor: "#66bb6a",
         fillOpacity: 0.4
       },
-      onEachFeature: (feature, layer) => {
-        const name = feature.properties.name || "Unnamed park";
-        layer.bindPopup(`<h3>${name}</h3>Park`);
-      }
+      // pop up info for each park
+      onEachFeature: (feature, layer) => { 
+        const p = feature.properties;
+        let popup = `<h3>${p.name || "Unnamed park"}</h3>`;
+        if (p.operator) popup += `<b>Managed by:</b> ${p.operator}<br>`;
+        if (p.opening_hours) popup += `<b>Hours:</b> ${p.opening_hours}<br>`;
+        if (p.website) popup += `<a href="${p.website}" target="_blank">Website</a>`;
+        layer.bindPopup(popup);
+      },
     }).addTo(parksGroup);
   });
 
