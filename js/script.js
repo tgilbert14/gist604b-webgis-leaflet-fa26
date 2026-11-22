@@ -66,11 +66,14 @@ fetch("data/bike_paths.geojson")
         weight: 3,
         opacity: 0.8
       },
-      onEachFeature: (feature, layer) => {
+    onEachFeature: (feature, layer) => {
         const p = feature.properties;
-        const name = p.name || "Unnamed bike path";
-        const surface = p.surface || "unknown";
-        layer.bindPopup(`<h3>${name}</h3>Surface: ${surface}`);
+        let popup = `<h3>${p.name || "Unnamed bike path"}</h3>`;
+        if (p.surface) popup += `<b>Surface:</b> ${p.surface}<br>`;
+        if (p.smoothness) popup += `<b>Smoothness:</b> ${p.smoothness}<br>`;
+        if (p.foot) popup += `<b>Walkers allowed:</b> ${p.foot}<br>`;
+        if (p.lit) popup += `<b>Lit at night:</b> ${p.lit}<br>`;
+        layer.bindPopup(popup);
       }
     }).addTo(bikeGroup);
   });
