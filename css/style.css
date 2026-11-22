@@ -1,0 +1,62 @@
+/* Page layout: header on top, map fills the middle, footer at the bottom */
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #2b3a42;
+  color: white;
+  padding: 10px 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+header p {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* The map MUST have a height or Leaflet shows nothing */
+#map {
+  flex: 1;
+  min-height: 400px;
+}
+
+footer {
+  background: #2b3a42;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 6px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Popup text */
+.leaflet-popup-content h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.leaflet-popup-content p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.leaflet-popup-content a {
+  color: #0078ff;
+  text-decoration: none;
+}
