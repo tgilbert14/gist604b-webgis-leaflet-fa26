@@ -88,10 +88,17 @@ fetch("data/bars.geojson")
           fillColor: "#e39a12",
           fillOpacity: 0.9
         }),
-      onEachFeature: (feature, layer) => {
+        // pop up info for each bar
+        onEachFeature: (feature, layer) => {
         const p = feature.properties;
         let popup = `<h3>${p.name}</h3>`;
-        if (p.opening_hours) popup += `Hours: ${p.opening_hours}<br>`;
+        if (p["addr:street"]) {
+          popup += `${p["addr:housenumber"] || ""} ${p["addr:street"]}<br>`;
+        }
+        if (p.opening_hours) popup += `<b>Hours:</b> ${p.opening_hours}<br>`;
+        if (p.phone) popup += `<b>Phone:</b> ${p.phone}<br>`;
+        if (p.outdoor_seating) popup += `<b>Outdoor seating:</b> ${p.outdoor_seating}<br>`;
+        if (p.food) popup += `<b>Food:</b> ${p.food}<br>`;
         if (p.website) popup += `<a href="${p.website}" target="_blank">Website</a>`;
         layer.bindPopup(popup);
       }
